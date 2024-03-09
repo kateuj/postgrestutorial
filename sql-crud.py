@@ -133,6 +133,12 @@ kate_ulloa_james = Programmer(
 #else:
 #    print("No records found")
 
+# delete multiple/all records
+# programmers = session.query(Programmer)
+# for programmer in programmers:
+#     session.delete(programmer)
+#     session.commit()
+
 # query the database to find all Programmers
 programmers = session.query(Programmer)
 for programmer in programmers:
